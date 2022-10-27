@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { publicRoutes } from "./routes/routes";
+import "antd/dist/antd.css";
+import Header from "./components/Header";
+import ProductDetail from "./pages/productDetail";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          {publicRoutes.map((item) => {
+            const Page = item.component;
+            return <Route key={item.id} path={item.path} element={<Page />} />;
+          })}
+          <Route path="/product-detail/:id" element={<ProductDetail />}></Route>
+          <Route
+            path="*"
+            element={
+              <main style={{ padding: "1rem" }}>
+                <p>404 Page not found 😂😂😂</p>
+              </main>
+            }
+          />
+        </Routes>
+        <div>
+          <Outlet />
+        </div>
+      </BrowserRouter>
     </div>
   );
 }

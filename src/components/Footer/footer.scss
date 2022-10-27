@@ -1,0 +1,29 @@
+.footer .footer-inner {
+    padding-top: 0;
+}
+
+.footer .footer--item h3,
+.footer .footer--item p {
+    margin-bottom: 15px;
+}
+
+.footer .footer--item:not(.footer__subscribe-box) {
+    max-width: 80%;
+}
+
+.footer .footer--social .link {
+    margin-right: 10px;
+font-size: 20px;
+    }
+
+.footer .footer--subcribe {
+    margin-bottom: 25px;
+}
+
+.footer .footer--subcribe input {
+    padding: 10px;
+    background: #e6e6e6;
+    width: 100%;
+    padding-left: 40px;
+}
+

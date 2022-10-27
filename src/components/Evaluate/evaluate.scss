@@ -1,0 +1,35 @@
+.main--review{
+    margin-top: 60px;
+}
+.main__evaluate .eval-review p.text{
+    font-size: 24px;
+    font-family: "Lato Light", sans-serif;
+    color: #343131;
+    margin-bottom: 17px;
+}
+.main__evaluate .eval-review p.average{
+    font-size: 48px;
+    color: #090909;
+    margin-bottom: 15px;
+}
+.main__evaluate .eval-review p.stars{
+    margin-bottom: 15px;
+}
+.status>p{
+    margin-bottom: 20px;
+}
+
+.main__evaluate .submit-eval p:first-child{
+    font-size: 24px;
+    font-family: "Lato Light", sans-serif;
+color: #343131;
+margin-bottom: 15px;
+}
+.main__evaluate .submit-eval p:last-child a{
+    padding: 10px 15px;
+    background: var(--primary-color);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 5px;
+}

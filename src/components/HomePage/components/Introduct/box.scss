@@ -1,0 +1,29 @@
+
+.introduct-bottom--main .introduct__item {
+    position: relative;
+    padding-top: 14px;
+    margin-right: 10px;
+}
+.introduct-bottom--main .introduct__item .content{
+    border-top: 2px solid #e3e0dd;
+    border-bottom: 2px solid #e3e0dd;
+   padding: 70px 30px 50px;
+    margin-top: 30px;
+  
+}
+.introduct-bottom--main .introduct__item img{
+    position: absolute;
+    top:0;
+    left: 145px;
+}
+.introduct-bottom--main .introduct__item h3{
+    font-size: 18px;
+    color: #373737;
+    font-family: "Lato Bold", sans-serif;
+margin-bottom: 35px;
+}
+.introduct-bottom--main .introduct__item p{
+    font-size: 16px;
+    color: #373737;
+    line-height: 1.5;
+}

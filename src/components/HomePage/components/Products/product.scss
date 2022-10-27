@@ -1,0 +1,30 @@
+.product-box .product-box__list .product-box--item {
+    padding: 0 33px;
+    text-align: center;
+}
+.product-box .product-box__list .product-box--item span {
+    display: block;
+}
+
+.product-box .product-box__list .product-box--item h3 {
+    font-size: 30px;
+    color: #1f1f1f;
+    font-family: "Lato Bold", sans-serif;
+    margin: 30px 0px 5px;
+}
+
+.product-box .product-box__list .product-box--item .item__category {
+    margin-bottom: 20px;
+}
+
+.product-box .product-box__list .product-box--item .item__category a {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-family: "Lato Bold", sans-serif;
+    text-transform: uppercase;
+}
+
+.product-box .product-box__list .product-box--item .item__price {
+    color: #373737;
+    font-size: 18px;
+}
